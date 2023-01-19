@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "web-scraping-fastapi-postgresql"
+version = "0.1.0"
+description = ""
+authors = ["IvanShkvyr <Gis2011I@gmail.com>"]
+readme = "README.md"
+packages = [{include = "web_scraping_fastapi_postgresql"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+scrapy = "^2.7.1"
+itemadapter = "^0.7.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
